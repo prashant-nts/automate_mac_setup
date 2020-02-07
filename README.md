@@ -29,4 +29,5 @@ This script will install and do below mentioned things.
 11. **SourceTree**
 12. **Visual Studia Code IDE**
 13. **IntelliJ Idea Ultimate IDE**
-14. **Docker For Mac**
+14. **MySQL Workbench**
+15. **Docker For Mac**
