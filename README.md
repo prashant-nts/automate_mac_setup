@@ -1,27 +1,32 @@
-# automate_mac_setup
-Automated setup for a new Mac system.
+# AUTOMATE MAC SETUP
+Automated installing important applications and setting config in new Mac machine.
+--------
+PLEASE DON'T RUN THIS SCRIPT MULTIPLE TIMES
+--------
 
--- Steps to execute the script --
+Steps to execute the script --
 
 1. make script executable.
 
-chmod u+x setup_my_mac_script_1.sh
+    chmod u+x setup_my_mac.sh
 
 2. Run the script
 
-./setup_my_mac_script_1.sh
-
---------------------------------------
-
+    ./setup_my_mac.sh
+-------
 This script will install and do below mentioned things.
 
-1. check **"~/.bash_profile"** if not present it will create one. 
-2. **BREW** (Homebrew) Mac package management tool.
-3. **Java v8** (AdoptOpenJDK8) also set JAVA_HOME into PATH variable.
-4. **GRADLE** dependency management tool for Java library and projects.
-5. **MAVEN** dependency management tool for Java library and projects.
-6. **SDKMAN**, An additional Mac package management tool.
-7. **GROOVY**
-8. **GRAILS**
+1. **"~/.bash_profile"** (if not present it will create one) 
+2. **Homebrew** 
+3. **Java v8** (also set JAVA_HOME into PATH variable)
+4. **Gradle** 
+5. **Maven** 
+6. **SdkMan**
+7. **Groovy**
+8. **Grails**
 9. **GIT**
-10. **DOCKER**
+10. **PostMan**
+11. **SourceTree**
+12. **Visual Studia Code IDE**
+13. **IntelliJ Idea Ultimate IDE**
+14. **Docker For Mac**
