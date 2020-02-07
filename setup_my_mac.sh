@@ -53,6 +53,8 @@ brew cask install visual-studio-code
 task_done+=(VSCode------installed)
 brew cask install intellij-idea
 task_done+=(IntelliJ----installed)
+brew cask install mysqlworkbench
+task_done+=(workbench---installed)
 #brew cask install google-chrome
 #task_done+=(Chrome------installed)
 echo '### USEFUL ALIAS FOR TERMINAL' >>~/.bash_profile
